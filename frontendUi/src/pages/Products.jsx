@@ -1,4 +1,3 @@
-// Products.jsx - Samsung Style
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 
@@ -48,7 +47,7 @@ export default function Products() {
 
   return (
     <Layout>
-      {/* Samsung-inspired Hero Header */}
+      {/* Header */}
       <div className="bg-gradient-to-br from-slate-900 via-blue-900/50 to-violet-900/80 text-white py-24 px-8 rounded-3xl shadow-2xl mb-16 border border-slate-700/50 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent drop-shadow-2xl tracking-tight">
@@ -188,23 +187,7 @@ export default function Products() {
         </div>
       </div>
 
-      {/* <style jsx>{`
-        .scrollbar-thin::-webkit-scrollbar { width: 10px; height: 10px; }
-        .scrollbar-thin::-webkit-scrollbar-track {
-          background: rgba(241, 245, 249, 0.5);
-          border-radius: 10px;
-          backdrop-filter: blur(10px);
-        }
-        .scrollbar-thin::-webkit-scrollbar-thumb {
-          background: linear-gradient(45deg, #e2e8f0, #cbd5e1);
-          border-radius: 10px;
-          border: 2px solid transparent;
-          background-clip: content-box;
-        }
-        .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-          background: linear-gradient(45deg, #94a3b8, #64748b);
-        }
-      `}</style> */}
+   
     </Layout>
   );
 }

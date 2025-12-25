@@ -1,4 +1,4 @@
-// Header.jsx - Samsung One UI Style
+// Header.jsx 
 export default function Header() {
   return (
     <header className="bg-gradient-to-r from-slate-900/95 via-slate-800/90 to-slate-900/95 backdrop-blur-xl shadow-2xl border-b border-slate-700/50 sticky top-0 z-50 supports-[backdrop-filter:blur(20px)]:bg-slate-900/80">

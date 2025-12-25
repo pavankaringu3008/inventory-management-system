@@ -1,4 +1,4 @@
-// Layout.jsx - Samsung Enhanced
+// Layout.jsx 
 import Sidebar from "./Sidebar";
 
 export default function Layout({ children }) {

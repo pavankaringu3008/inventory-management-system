@@ -1,4 +1,4 @@
-// Sidebar.jsx - Samsung One UI Style
+// Sidebar.jsx
 import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {

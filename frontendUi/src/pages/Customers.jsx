@@ -1,4 +1,3 @@
-// Customers.jsx - Samsung Style
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 
@@ -70,7 +69,6 @@ export default function Customers() {
 
   return (
     <Layout>
-      {/* Samsung-inspired Hero Header */}
       <div className="bg-gradient-to-br from-slate-900 via-blue-900/50 to-violet-900/80 text-white py-24 px-8 rounded-3xl shadow-2xl mb-16 border border-slate-700/50 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent drop-shadow-2xl tracking-tight">
@@ -84,7 +82,6 @@ export default function Customers() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto px-8">
         
-        {/* Add/Edit Form Card */}
         <div className="bg-gradient-to-b from-slate-50/90 to-white/70 backdrop-blur-3xl rounded-3xl shadow-2xl border border-slate-200/60 p-12 hover:shadow-3xl transition-all duration-500 hover:-translate-y-3 group/card">
           <div className="text-center mb-12">
             <div className="w-24 h-24 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl mx-auto mb-8 shadow-2xl flex items-center justify-center border-4 border-white/50 group-hover:scale-110 transition-all duration-500">

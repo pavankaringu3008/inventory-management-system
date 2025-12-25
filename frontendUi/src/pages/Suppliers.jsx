@@ -29,7 +29,7 @@ export default function Suppliers() {
 
   return (
     <Layout>
-      {/* Samsung-inspired Hero Header */}
+      {/*  Header */}
       <div className="bg-gradient-to-br from-slate-900 via-blue-900/50 to-violet-900/80 text-white py-24 px-8 rounded-3xl shadow-2xl mb-16 border border-slate-700/50 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent drop-shadow-2xl tracking-tight">
@@ -43,7 +43,7 @@ export default function Suppliers() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto px-8">
         
-        {/* Add/Edit Form Card - Samsung Style */}
+        {/* Add/Edit Form Card -  Style */}
         <div className="bg-gradient-to-b from-slate-50/90 to-white/70 backdrop-blur-3xl rounded-3xl shadow-2xl border border-slate-200/60 p-12 hover:shadow-3xl transition-all duration-500 hover:-translate-y-3 group/card">
           <div className="text-center mb-12">
             <div className="w-24 h-24 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl mx-auto mb-8 shadow-2xl flex items-center justify-center border-4 border-white/50 group-hover:scale-110 transition-all duration-500">
@@ -85,7 +85,7 @@ export default function Suppliers() {
           </form>
         </div>
 
-        {/* Suppliers List Card - Samsung Style */}
+        {/* Suppliers List Card -  Style */}
         <div className="bg-gradient-to-b from-slate-50/90 to-white/70 backdrop-blur-3xl rounded-3xl shadow-2xl border border-slate-200/60 p-12 hover:shadow-3xl transition-all duration-500 hover:-translate-y-3 group/card overflow-hidden">
           <div className="text-center mb-12">
             <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl mx-auto mb-8 shadow-2xl flex items-center justify-center border-4 border-white/50 group-hover:scale-110 transition-all duration-500">
@@ -166,23 +166,7 @@ export default function Suppliers() {
         </div>
       </div>
 
-      {/* <style jsx>{`
-        .scrollbar-thin::-webkit-scrollbar { width: 10px; height: 10px; }
-        .scrollbar-thin::-webkit-scrollbar-track {
-          background: rgba(241, 245, 249, 0.5);
-          border-radius: 10px;
-          backdrop-filter: blur(10px);
-        }
-        .scrollbar-thin::-webkit-scrollbar-thumb {
-          background: linear-gradient(45deg, #e2e8f0, #cbd5e1);
-          border-radius: 10px;
-          border: 2px solid transparent;
-          background-clip: content-box;
-        }
-        .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-          background: linear-gradient(45deg, #94a3b8, #64748b);
-        }
-      `}</style> */}
+      
     </Layout>
   );
 }
